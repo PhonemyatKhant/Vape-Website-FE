@@ -28,6 +28,9 @@ body{
 .embla__viewport {
   overflow: hidden;
 }
+.embla__w{
+  width: 100vw;
+}
 .embla__container {
   display: flex;
 }

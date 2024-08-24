@@ -2,10 +2,11 @@ import React from 'react'
 import { products } from '@/data/data'
 import ProductCard from './ProductCard'
 import Button from './Button'
+import { GridProducts } from './GridProducts'
 
 const BestDeals = () => {
   return (
-    <section className='my-[40px] text-center max-w-[1200px] px-[25px] max-sm:px-[15px] mx-auto ' id='best-deals'>
+    <section className='mb-[55px] text-center max-w-[1200px] w-full px-[25px] max-sm:px-[15px] mx-auto ' id='best-deals'>
       <div className='py-[30px]'>
         <h2 className='text-4xl  font-bold pb-1'>Best Deals</h2>
         <h3 className='text-xl'>Just For You</h3>
@@ -23,17 +24,18 @@ const BestDeals = () => {
           />
         ))}
       </div>
-      <Button className={'w-[240px] py-[6px] bg-customGrey rounded-[15px]'} text='View More &rsaquo;' />
+      <Button className={'w-[240px] mb-[55px] py-[6px] bg-customGrey rounded-[15px]'} text='View More &rsaquo;' />
 
-      <div className='  mx-auto  grid gap-[6px] grid-cols-1  md:grid-cols-3 lg:grid-cols-5'>
+      {/*<div className='  mx-auto  grid gap-[6px] grid-cols-1  md:grid-cols-3 lg:grid-cols-5'>
         <div className=' h-[359px]  col-span-3  row-span-2 rounded-[10px] bg-customBlack'>
           <p>Be a vape Pi member and get our special exclusive offers</p>
           <Button text='View'/>
         </div>
         <div className='  row-span-2 rounded-[10px] bg-customBlack'></div>
-        <div className='  rounded-[10px] bg-customBlack'></div>
-        <div className='  rounded-[10px] bg-customBlack'></div>
-      </div>
+        <div className='h-[175px]  rounded-[10px] bg-customBlack'></div>
+        <div className='h-[175px]  rounded-[10px] bg-customBlack'></div>
+      </div>*/}
+      <GridProducts/>
     </section>
 
   )
