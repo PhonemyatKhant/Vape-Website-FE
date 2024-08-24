@@ -1,7 +1,8 @@
-import React from 'react'
+'use client'
 import Button from './Button'
 import { BigCarousel } from './BigCarousel'
 import Image from 'next/image'
+import ItemsShowCase from './ItemsShowCase'
 
 const NewReleased = () => {
   return (
@@ -99,6 +100,8 @@ const NewReleased = () => {
       <Button className={'w-[240px] mb-[55px] py-[6px] bg-customGrey rounded-[15px]'} text='View More &rsaquo;' />
 
       <BigCarousel />
+
+      <ItemsShowCase title='Devices' image='/img_vape_1.png' desc='Find the best for you here'/>
     </section>
   )
 }

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 const ProductCard = ({ discount, image, name, price, points }: {
-  discount: boolean, image: string, name: string, price: number, points: number
+  discount?: boolean, image: string, name: string, price: number, points: number
 }) => {
   return (
     <div className='flex  flex-col items-center  justify-between'>
