@@ -9,7 +9,7 @@ import DisplayCard from '../DisplayCard'
 type PropType = {
   slides: { image: string, name: string, price: number, points: number }[]
   options?: EmblaOptionsType
-  emblaRef: any
+  emblaRef?: any
 
 }
 

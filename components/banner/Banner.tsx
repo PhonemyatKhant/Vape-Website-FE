@@ -31,7 +31,7 @@ export default function Banner() {
               className={`${styles.embla__slide} flex flex-col py-[40px] items-center justify-end bg-[url('/img_guy_vaping.jpg')] bg-cover bg-center`}
             >
               <h2 className=' pb-[15px] text-2xl font-light'>The Best Look</h2>
-              <p className=' pb-[30px] text-5xl font-bold'>Anytime Anywhere</p>
+              <p className=' max-md:text-3xl pb-[30px] text-5xl font-bold'>Anytime Anywhere</p>
               <p className=' pb-[10px] text-lg font-light'>Starts from 10,000 MMK</p>
               <Button
                 className={
