@@ -28,7 +28,7 @@ const Footer = () => {
             </li>
             <li  className='mb-[15px]'>
               <input readOnly className=' mr-2' radioGroup='language' type="radio" id="option2" name="language" />
-              <label htmlFor="option2" className='font-normal text-sm'>   Myanmar &#40;Zawgyi'&#41;</label>
+              <label htmlFor="option2" className='font-normal text-sm'>   Myanmar &#40;Zawgyi&#41;</label>
             </li>
             <li className='mb-[15px]'>
               <input readOnly className=' mr-2' radioGroup='language' type="radio" id="option3" name="language" checked />
@@ -78,7 +78,7 @@ const Footer = () => {
           </ul>
           {/*col6 end*/}
         </div>
-        <h3 className='text-center mb-[17px] font-normal text-sm'>&copy; Copyright 2023 C by D Co., Ltd. All rights reserved.</h3>
+        <h3 className='text-center mb-[17px] font-normal text-sm'>&copy; Copyright 2023 C by D Co.&; Ltd., All rights reserved.</h3>
       </footer>
 
     </section>
