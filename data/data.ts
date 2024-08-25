@@ -5,7 +5,7 @@ export const products = [{
     points: 600
 },
 {
-    image: "/img_black_vape.png",
+    image: "/img_indigo_vape.png",
     name: "Refreshing Mint",
     price: 30000,
     points: 600
@@ -23,13 +23,13 @@ export const products = [{
     points: 600
 },
 {
-    image: "/img_pink_vape.png",
+    image: "/img_blue_vape.png",
     name: "Refreshing Mint",
     price: 30000,
     points: 600
 },
 {
-    image: "/img_pink_vape.png",
+    image: "/img_green_vape.png",
     name: "Refreshing Mint",
     price: 30000,
     points: 600

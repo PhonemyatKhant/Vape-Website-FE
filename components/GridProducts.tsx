@@ -21,31 +21,32 @@ export function GridProducts() {
                 />
               </div>
             </div>
-            <h2 className="text-3xl font-bold mb-2 text-start ">Membership Program</h2>
-            <p className="text-lg mb-4 text-start max-w-[50%]">Be a Vape Pi member and get our special exclusive offers</p>
+            <h2 className="text-4xl font-bold mb-2 text-start ">Membership Program</h2>
+            <p className="text-xl mb-4 text-start max-w-[50%]">Be a Vape Pi member and get our special exclusive offers</p>
             <div className='text-start'>
               <Button
                 className={
-                  ' w-[80px] py-[6px] bg-black border border-white  rounded-[15px] bg-opacity-40 backdrop-blur-sm text-white'
+
+                  ' cursor-pointer w-[80px] py-[6px] bg-black border border-white  rounded-[15px] bg-opacity-40 backdrop-blur-sm text-white'
                 }
                 text='View'
               />
             </div>
           </div>
           <div className='absolute w-fit h-fit bottom-0 right-0'>
-          <Image
-                  src="/img_vapes.png"
-                  alt="Icons"
-                  width={300}
-                  height={100}
+            <Image
+              src="/img_vapes.png"
+              alt="Icons"
+              width={300}
+              height={100}
               style={{ objectFit: 'cover' }}
               className=' h-full w-[160px]'
-                />
+            />
           </div>
         </div>
 
-        {/* Devices (1 column, 2 rows on large screens) */}
-        <div className="col-span-1 row-span-2 relative lg:col-span-1 lg:row-span-2 bg-customBlack text-white p-6 rounded-lg flex flex-col justify-end items-start">
+        {/* Devices */}
+        <div className="cursor-pointer col-span-1 row-span-2 relative lg:col-span-1 lg:row-span-2 bg-customBlack text-white p-6 rounded-lg flex flex-col justify-end items-start">
           <div className="flex justify-center  items-center h-full">
             <Image
               src="/img_vape_1.png"
@@ -64,8 +65,8 @@ export function GridProducts() {
           </div>
         </div>
 
-        {/* Pods (1 column, 1 row on large screens) */}
-        <div className="row-span-1 col-span-1 bg-customBlack text-white p-3 rounded-lg relative overflow-hidden">
+        {/* Pods */}
+        <div className="cursor-pointer row-span-1 col-span-1 bg-customBlack text-white p-3 rounded-lg relative overflow-hidden">
           <div className="flex justify-center  items-center h-full">
             <Image
               src="/img_vape2.png"
@@ -84,8 +85,8 @@ export function GridProducts() {
           </div>
         </div>
 
-        {/* Disposable (1 column, 1 row on large screens) */}
-        <div className="row-span-1 col-span-1 bg-customBlack text-white p-3 rounded-lg relative overflow-hidden">
+        {/* Disposable */}
+        <div className="cursor-pointer row-span-1 col-span-1 bg-customBlack text-white p-3 rounded-lg relative overflow-hidden">
           <div className="flex justify-center  items-center h-full">
             <Image
               src="/img_vape3.png"

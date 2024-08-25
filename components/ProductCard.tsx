@@ -5,10 +5,10 @@ const ProductCard = ({ discount, image, name, price, points }: {
   discount?: boolean, image: string, name: string, price: number, points: number
 }) => {
   return (
-    <div className='flex  flex-col items-center  justify-between'>
+    <div className='flex cursor-pointer  flex-col items-center  justify-between'>
       <div className='min-w-[180px] h-[180px] overflow-hidden text-center bg-customGrey  flex flex-col justify-between items-center rounded-[10px]'>
         {discount && <span className='bg-red-500 text-xs font-semibold text-white px-[10px] py-[2px]'>25% Off</span>}
-        <Image width={160} height={160} src={image} alt='yellow vape' className="object-contain" />
+        <Image width={160} height={160} src={image} alt='yellow vape' className=" object-cover" />
       </div>
 
 

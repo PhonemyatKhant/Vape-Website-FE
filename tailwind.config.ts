@@ -18,7 +18,10 @@ const config: Config = {
 
       },
       screens: {
-        'sm': '380px',  // Custom breakpoint for screens smaller than 380px
+        'sm': '380px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1440px',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
