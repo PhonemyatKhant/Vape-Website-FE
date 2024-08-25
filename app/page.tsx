@@ -1,5 +1,6 @@
 import { Banner } from "@/components/Banner"
 import BestDeals from "@/components/BestDeals"
+import Footer from "@/components/Footer"
 import NewReleased from "@/components/NewReleased"
 import Test from "@/components/Test"
 
@@ -10,7 +11,7 @@ const MainPage = () => {
       <Banner />
       <BestDeals />
       <NewReleased />
-      {/*<Test/>*/}
+      <Footer />
     </div>
   )
 }
