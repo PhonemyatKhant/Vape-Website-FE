@@ -15,6 +15,7 @@ const config: Config = {
         customRed: '#fa8b94',
         customBlue: '#3eb4eb',
         customGreen: '#76d257',
+        shadow:'rgba(0, 0, 0, 0.2)',
 
       },
       screens: {

@@ -24,7 +24,7 @@ export default function Banner() {
   return (
     <div className={`${styles.embla} relative w-full`}>
       <Navbar />
-      <div className={`${styles.blurBg} h-20 w-full`}></div>
+      <div className="absolute top-0 left-0 z-30 bg-shadow blur-[10px] h-20 w-full"></div>
       <div className={`${styles.embla__viewport} h-[558px] text-white`} ref={emblaRef}>
         <div className={`${styles.embla__container} h-full`}>
 
