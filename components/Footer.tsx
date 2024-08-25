@@ -9,7 +9,7 @@ const Footer = () => {
     <section id="footer ">
       <footer className='max-w-[1200px] pt-[50px] w-full px-[25px] max-sm:px-[15px] mx-auto'>
         {/*grid container */}
-        <div className='grid gap-[20px] grid-cols-1 lg:grid-cols-4 pb-[56px]'>
+        <div className='grid gap-[20px] grid-cols-1  md:grid-cols-3 lg:grid-cols-4 pb-[56px]'>
           <ul>
             <li>
               <h2 className=' text-lg font-normal pb-[25px]'>Customer Service</h2>

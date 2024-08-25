@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export function GridProducts() {
   return (
-    <section className="container mx-auto ">
+    <section className=" mx-auto ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-2">
 
         {/* Membership Program (3 columns, 2 rows on large screens) */}

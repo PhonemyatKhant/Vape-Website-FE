@@ -23,10 +23,10 @@ const ItemsShowCase = ({ title, image, desc }: { title: string, image: string, d
 
   return (
     <div className='max-w-[1200px] w-full px-[25px] max-sm:px-[15px] mx-auto mb-[26px] mt-[44px]'>
-      <div className='bg-customBlack rounded-[10px]  p-[20px] pr-0  relative  flex items-center justify-between'>
+      <div className='bg-customBlack overflow-hidden rounded-[10px] gap-6 md:gap-0  p-[20px] pr-0  relative  flex flex-col md:flex-row items-center justify-between'>
 
         {/*flex left */}
-        <div className='flex  w-1/3 items-center justify-center gap-1'>
+        <div className='flex w-full  md:w-1/3 items-center justify-center gap-1'>
           <Image
             src={image}
             alt={title}
@@ -46,7 +46,7 @@ const ItemsShowCase = ({ title, image, desc }: { title: string, image: string, d
 
         {/* Next Button */}
         <button
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white px-5 py-16  rounded-[10px] m-4 backdrop-blur-sm"
+          className=" hidden sm:block absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white px-5 py-16  rounded-[10px] m-4 backdrop-blur-sm"
           onClick={scrollNext}
           aria-label="Next Slide"
         >

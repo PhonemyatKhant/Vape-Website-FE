@@ -17,7 +17,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   const { slides, options, emblaRef, } = props
 
   return (
-    <div className={`${styles.embla}  relative  w-full  `}>
+    <div className={`${styles.embla}  relative  w-full   `}>
       <div className={`${styles.embla__viewport}  text-white`} ref={emblaRef}>
         <div className={`${styles.embla__container} h-full`}>
 

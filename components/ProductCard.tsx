@@ -5,18 +5,17 @@ const ProductCard = ({ discount, image, name, price, points }: {
   discount?: boolean, image: string, name: string, price: number, points: number
 }) => {
   return (
-    <div className='flex cursor-pointer  flex-col items-center  justify-between'>
-      <div className='min-w-[180px] h-[180px] overflow-hidden text-center bg-customGrey  flex flex-col justify-between items-center rounded-[10px]'>
+    <div className='flex flex-col items-center justify-between p-2'>
+      <div className='overflow-hidden text-center bg-customGrey flex flex-col justify-between items-center rounded-[10px] p-2'>
         {discount && <span className='bg-red-500 text-xs font-semibold text-white px-[10px] py-[2px]'>25% Off</span>}
-        <Image width={160} height={160} src={image} alt='yellow vape' className=" object-cover" />
+        <Image width={160} height={160} src={image} alt={name} className="object-cover w-full h-[160px]" />
       </div>
 
-
       <div className="text-center py-[11px]">
-        <p >{name} </p>
-        <p className=" font-semibold">{price} MMK</p>
+        <p className="text-sm">{name}</p>
+        <p className="font-semibold text-lg">{price} MMK</p>
         <p className="text-xs line-through">{price} MMK</p>
-        <p className="text-yellow-500  text-sm flex items-center justify-center">
+        <p className="text-yellow-500 text-sm flex items-center justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"

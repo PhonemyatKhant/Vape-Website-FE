@@ -14,6 +14,8 @@ const MainPage = () => {
       <NewReleased />
       <BigCarousel />
       <ItemsShowCase title='Devices' image='/img_vape_1.png' desc='Find the best for you here' />
+      <ItemsShowCase title='Pods' image='/img_vape2.png' desc='Variety of choices available' />
+      <ItemsShowCase title='Disposible' image='/img_vape3.png' desc='Easy, clean, and superb flavor' />
       <Footer />
       
     </div>
