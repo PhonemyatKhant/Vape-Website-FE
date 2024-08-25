@@ -1,11 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
-import { FaSearch, FaShoppingCart, FaBars } from 'react-icons/fa'
+import React from 'react';
+import Image from 'next/image';
+import { FaSearch, FaShoppingCart, FaBars } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <nav className="absolute z-40  top-0 left-0 w-full bg-transparent max-w-[1200px] px-[25px] max-sm:px-[15px] mx-auto ">
-      <div className="  flex items-center justify-between p-4">
+    <nav className="absolute z-40 top-0 right-[50%] translate-x-1/2  w-full bg-transparent max-w-[1200px] mx-auto px-[25px] max-sm:px-[15px]">
+      <div className="flex items-center justify-between p-4">
         {/* Left Logo */}
         <div className="text-2xl font-bold text-white">
           MyLogo
@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -15,7 +15,7 @@ const BestDeals = () => {
         <h3 className="text-base sm:text-lg">Just For You</h3>
       </div>
 
-      <div className="grid max-sm:grid-cols-1 grid-cols-2 md:grid-cols-3 lg:grid-cols-6  gap-[6px] pb-[19px]">
+      <div className="grid max-sm:grid-cols-1 grid-cols-2 md:grid-cols-3 lg:grid-cols-6  gap-[4px] pb-[19px]">
         {products.map((product, index) => (
           <ProductCard
             key={index}
