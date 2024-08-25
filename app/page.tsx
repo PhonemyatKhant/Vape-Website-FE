@@ -4,7 +4,6 @@ import { BigCarousel } from "@/components/bigCarousel/BigCarousel"
 import Footer from "@/components/Footer"
 import ItemsShowCase from "@/components/ItemsShowCase"
 import NewReleased from "@/components/NewReleased"
-import Test from "@/components/Test"
 
 
 const MainPage = () => {

@@ -21,7 +21,7 @@ export default function Banner() {
   }, [emblaApi])
 
   return (
-    <div className={`${styles.embla} relative `}>
+    <div className={`${styles.embla} relative w-full`}>
       <div className={`${styles.embla__viewport} h-[558px] text-white`} ref={emblaRef}>
         <div className={`${styles.embla__container} h-full`}>
 
