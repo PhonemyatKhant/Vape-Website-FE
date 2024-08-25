@@ -1,27 +1,36 @@
 .embla {
-  max-width: 100%;
-  margin: auto;
   --slide-height: 19rem;
   --slide-spacing: 1rem;
   --slide-size: 100%;
+  margin: auto;
+  
+  max-width: 100%;
 }
 
 .embla__viewport {
-  overflow: hidden;
   width: 100%;
+  overflow: hidden;
 }
 
 .embla__container {
   display: flex;
-  touch-action: pan-y pinch-zoom;
   margin-left: 0; /* Removed negative margin to avoid overflow */
+  touch-action: pan-y pinch-zoom;
   gap: var(--slide-spacing); /* Consistent spacing */
 }
 
 .embla__slide {
-  transform: translate3d(0, 0, 0);
   flex: 0 0 var(--slide-size);
-  min-width: 0;
   padding: var(--slide-spacing); /* Ensure padding is uniform */
   box-sizing: border-box; /* Ensures padding is included within the slide’s width */
+  transform: translate3d(0, 0, 0);
+  min-width: 0;
+}
+.blurBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  background-color: rgba(0, 0, 0, 0.2); 
+  filter: blur(10px); 
 }

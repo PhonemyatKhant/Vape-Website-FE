@@ -6,6 +6,7 @@ import Autoplay from 'embla-carousel-autoplay'
 import { DotButton, useDotButton } from '../embla/EmblaCarouselDotButton'
 import { useCallback } from 'react'
 import styles from './Banner.module.css'
+import Navbar from '../Navbar'
 
 export default function Banner() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()])
@@ -22,6 +23,8 @@ export default function Banner() {
 
   return (
     <div className={`${styles.embla} relative w-full`}>
+      <Navbar />
+      <div className={`${styles.blurBg} h-20 w-full`}></div>
       <div className={`${styles.embla__viewport} h-[558px] text-white`} ref={emblaRef}>
         <div className={`${styles.embla__container} h-full`}>
 
